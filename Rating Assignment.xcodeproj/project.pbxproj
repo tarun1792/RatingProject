@@ -11,7 +11,7 @@
 		EE89B935244AF946004B5853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B934244AF946004B5853 /* SceneDelegate.swift */; };
 		EE89B937244AF946004B5853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B936244AF946004B5853 /* ViewController.swift */; };
 		EE89B93A244AF946004B5853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE89B938244AF946004B5853 /* Main.storyboard */; };
-		EE89B93D244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */; };
+		EE89B93D244AF946004B5853 /* Rating_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE89B93B244AF946004B5853 /* Rating_Assignment.xcdatamodeld */; };
 		EE89B93F244AF948004B5853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE89B93E244AF948004B5853 /* Assets.xcassets */; };
 		EE89B942244AF948004B5853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE89B940244AF948004B5853 /* LaunchScreen.storyboard */; };
 		EE89B94D244AF948004B5853 /* Stamurai_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE89B92F244AF946004B5853 /* Stamurai Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stamurai Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B92F244AF946004B5853 /* Rating Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rating Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE89B932244AF946004B5853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE89B934244AF946004B5853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE89B936244AF946004B5853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		EE89B93E244AF948004B5853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE89B941244AF948004B5853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE89B943244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stamurai AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B948244AF948004B5853 /* Rating AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rating AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamurai_AssignmentTests.swift; sourceTree = "<group>"; };
 		EE89B94E244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stamurai AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B953244AF948004B5853 /* Rating AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rating AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE89B957244AF948004B5853 /* Stamurai_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamurai_AssignmentUITests.swift; sourceTree = "<group>"; };
 		EE89B959244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE89B965244AFA45004B5853 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 			children = (
 				EE89B97B244B6C26004B5853 /* Ratings+CoreDataClass.swift */,
 				EE89B97C244B6C26004B5853 /* Ratings+CoreDataProperties.swift */,
-				EE89B931244AF946004B5853 /* Stamurai Assignment */,
-				EE89B94B244AF948004B5853 /* Stamurai AssignmentTests */,
-				EE89B956244AF948004B5853 /* Stamurai AssignmentUITests */,
+				EE89B931244AF946004B5853 /* Rating Assignment */,
+				EE89B94B244AF948004B5853 /* Rating AssignmentTests */,
+				EE89B956244AF948004B5853 /* Rating AssignmentUITests */,
 				EE89B930244AF946004B5853 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,14 +109,14 @@
 		EE89B930244AF946004B5853 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE89B92F244AF946004B5853 /* Stamurai Assignment.app */,
-				EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */,
-				EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */,
+				EE89B92F244AF946004B5853 /* Rating Assignment.app */,
+				EE89B948244AF948004B5853 /* Rating AssignmentTests.xctest */,
+				EE89B953244AF948004B5853 /* Rating AssignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE89B931244AF946004B5853 /* Stamurai Assignment */ = {
+		EE89B931244AF946004B5853 /* Rating Assignment */ = {
 			isa = PBXGroup;
 			children = (
 				EE89B985244C1172004B5853 /* Extensions */,
@@ -129,27 +129,27 @@
 				EE89B93E244AF948004B5853 /* Assets.xcassets */,
 				EE89B940244AF948004B5853 /* LaunchScreen.storyboard */,
 				EE89B943244AF948004B5853 /* Info.plist */,
-				EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */,
+				EE89B93B244AF946004B5853 /* Rating_Assignment.xcdatamodeld */,
 			);
-			path = "Stamurai Assignment";
+			path = "Rating Assignment";
 			sourceTree = "<group>";
 		};
-		EE89B94B244AF948004B5853 /* Stamurai AssignmentTests */ = {
+		EE89B94B244AF948004B5853 /* Rating AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
 				EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */,
 				EE89B94E244AF948004B5853 /* Info.plist */,
 			);
-			path = "Stamurai AssignmentTests";
+			path = "Rating AssignmentTests";
 			sourceTree = "<group>";
 		};
-		EE89B956244AF948004B5853 /* Stamurai AssignmentUITests */ = {
+		EE89B956244AF948004B5853 /* Rating AssignmentUITests */ = {
 			isa = PBXGroup;
 			children = (
 				EE89B957244AF948004B5853 /* Stamurai_AssignmentUITests.swift */,
 				EE89B959244AF948004B5853 /* Info.plist */,
 			);
-			path = "Stamurai AssignmentUITests";
+			path = "Rating AssignmentUITests";
 			sourceTree = "<group>";
 		};
 		EE89B96A244B0E5E004B5853 /* CustomViews */ = {
@@ -190,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE89B92E244AF946004B5853 /* Stamurai Assignment */ = {
+		EE89B92E244AF946004B5853 /* Rating Assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai Assignment" */;
+			buildConfigurationList = EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating Assignment" */;
 			buildPhases = (
 				EE89B92B244AF946004B5853 /* Sources */,
 				EE89B92C244AF946004B5853 /* Frameworks */,
@@ -202,14 +202,14 @@
 			);
 			dependencies = (
 			);
-			name = "Stamurai Assignment";
+			name = "Rating Assignment";
 			productName = "Stamurai Assignment";
-			productReference = EE89B92F244AF946004B5853 /* Stamurai Assignment.app */;
+			productReference = EE89B92F244AF946004B5853 /* Rating Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE89B947244AF948004B5853 /* Stamurai AssignmentTests */ = {
+		EE89B947244AF948004B5853 /* Rating AssignmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentTests" */;
+			buildConfigurationList = EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating AssignmentTests" */;
 			buildPhases = (
 				EE89B944244AF948004B5853 /* Sources */,
 				EE89B945244AF948004B5853 /* Frameworks */,
@@ -220,14 +220,14 @@
 			dependencies = (
 				EE89B94A244AF948004B5853 /* PBXTargetDependency */,
 			);
-			name = "Stamurai AssignmentTests";
+			name = "Rating AssignmentTests";
 			productName = "Stamurai AssignmentTests";
-			productReference = EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */;
+			productReference = EE89B948244AF948004B5853 /* Rating AssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EE89B952244AF948004B5853 /* Stamurai AssignmentUITests */ = {
+		EE89B952244AF948004B5853 /* Rating AssignmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentUITests" */;
+			buildConfigurationList = EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating AssignmentUITests" */;
 			buildPhases = (
 				EE89B94F244AF948004B5853 /* Sources */,
 				EE89B950244AF948004B5853 /* Frameworks */,
@@ -238,9 +238,9 @@
 			dependencies = (
 				EE89B955244AF948004B5853 /* PBXTargetDependency */,
 			);
-			name = "Stamurai AssignmentUITests";
+			name = "Rating AssignmentUITests";
 			productName = "Stamurai AssignmentUITests";
-			productReference = EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */;
+			productReference = EE89B953244AF948004B5853 /* Rating AssignmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -266,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Stamurai Assignment" */;
+			buildConfigurationList = EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Rating Assignment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -279,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE89B92E244AF946004B5853 /* Stamurai Assignment */,
-				EE89B947244AF948004B5853 /* Stamurai AssignmentTests */,
-				EE89B952244AF948004B5853 /* Stamurai AssignmentUITests */,
+				EE89B92E244AF946004B5853 /* Rating Assignment */,
+				EE89B947244AF948004B5853 /* Rating AssignmentTests */,
+				EE89B952244AF948004B5853 /* Rating AssignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE89B93D244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld in Sources */,
+				EE89B93D244AF946004B5853 /* Rating_Assignment.xcdatamodeld in Sources */,
 				EE89B96E244B23BF004B5853 /* RangeSliderTrackerLayer.swift in Sources */,
 				EE89B966244AFA45004B5853 /* RatingViewController.swift in Sources */,
 				EE89B937244AF946004B5853 /* ViewController.swift in Sources */,
@@ -354,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		EE89B94A244AF948004B5853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE89B92E244AF946004B5853 /* Stamurai Assignment */;
+			target = EE89B92E244AF946004B5853 /* Rating Assignment */;
 			targetProxy = EE89B949244AF948004B5853 /* PBXContainerItemProxy */;
 		};
 		EE89B955244AF948004B5853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE89B92E244AF946004B5853 /* Stamurai Assignment */;
+			target = EE89B92E244AF946004B5853 /* Rating Assignment */;
 			targetProxy = EE89B954244AF948004B5853 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,13 +504,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai Assignment/Info.plist";
+				INFOPLIST_FILE = "Rating Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-Assignment";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Rating-Assignment";
+				PRODUCT_NAME = "Rating Assignment";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -522,13 +522,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai Assignment/Info.plist";
+				INFOPLIST_FILE = "Rating Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-Assignment";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Rating-Assignment";
+				PRODUCT_NAME = "Rating Assignment";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -541,7 +541,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai AssignmentTests/Info.plist";
+				INFOPLIST_FILE = "Rating Assignmenttests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,7 +552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai Assignment.app/Stamurai Assignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rating Assignment.app/Rating Assignment";
 			};
 			name = Debug;
 		};
@@ -563,7 +563,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai AssignmentTests/Info.plist";
+				INFOPLIST_FILE = "Rating Assignmenttests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,7 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai Assignment.app/Stamurai Assignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rating Assignment.app/Rating Assignment";
 			};
 			name = Release;
 		};
@@ -584,7 +584,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai AssignmentUITests/Info.plist";
+				INFOPLIST_FILE = "Rating AssignmentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +594,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Stamurai Assignment";
+				TEST_TARGET_NAME = "Rating Assignment";
 			};
 			name = Debug;
 		};
@@ -604,7 +604,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8689CZ4BV;
-				INFOPLIST_FILE = "Stamurai AssignmentUITests/Info.plist";
+				INFOPLIST_FILE = "Rating AssignmentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,14 +614,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Stamurai Assignment";
+				TEST_TARGET_NAME = "Rating Assignment";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Stamurai Assignment" */ = {
+		EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Rating Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE89B95A244AF948004B5853 /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai Assignment" */ = {
+		EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE89B95D244AF948004B5853 /* Debug */,
@@ -639,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentTests" */ = {
+		EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating AssignmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE89B960244AF948004B5853 /* Debug */,
@@ -648,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentUITests" */ = {
+		EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Rating AssignmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE89B963244AF948004B5853 /* Debug */,
@@ -660,13 +660,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */ = {
+		EE89B93B244AF946004B5853 /* Rating_Assignment.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				EE89B93C244AF946004B5853 /* Stamurai_Assignment.xcdatamodel */,
 			);
 			currentVersion = EE89B93C244AF946004B5853 /* Stamurai_Assignment.xcdatamodel */;
-			path = Stamurai_Assignment.xcdatamodeld;
+			path = Rating_Assignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Stamurai Assignment
+//  Rating Assignment
 //
 //  Created by Tarun Kaushik on 18/04/20.
 //  Copyright © 2020 Tarun Kaushik. All rights reserved.
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Stamurai_Assignment")
+        let container = NSPersistentContainer(name: "Rating_Assignment")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

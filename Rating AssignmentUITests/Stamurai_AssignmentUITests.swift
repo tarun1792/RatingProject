@@ -1,6 +1,6 @@
 //
 //  Stamurai_AssignmentUITests.swift
-//  Stamurai AssignmentUITests
+//  Rating AssignmentUITests
 //
 //  Created by Tarun Kaushik on 18/04/20.
 //  Copyright © 2020 Tarun Kaushik. All rights reserved.
