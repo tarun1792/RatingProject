@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE89B933244AF946004B5853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B932244AF946004B5853 /* AppDelegate.swift */; };
+		EE89B935244AF946004B5853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B934244AF946004B5853 /* SceneDelegate.swift */; };
+		EE89B937244AF946004B5853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B936244AF946004B5853 /* ViewController.swift */; };
+		EE89B93A244AF946004B5853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE89B938244AF946004B5853 /* Main.storyboard */; };
+		EE89B93D244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */; };
+		EE89B93F244AF948004B5853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE89B93E244AF948004B5853 /* Assets.xcassets */; };
+		EE89B942244AF948004B5853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE89B940244AF948004B5853 /* LaunchScreen.storyboard */; };
+		EE89B94D244AF948004B5853 /* Stamurai_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */; };
+		EE89B958244AF948004B5853 /* Stamurai_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B957244AF948004B5853 /* Stamurai_AssignmentUITests.swift */; };
+		EE89B966244AFA45004B5853 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B965244AFA45004B5853 /* RatingViewController.swift */; };
+		EE89B969244B021E004B5853 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B968244B021E004B5853 /* Extensions.swift */; };
+		EE89B96C244B0E75004B5853 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B96B244B0E75004B5853 /* RatingView.swift */; };
+		EE89B96E244B23BF004B5853 /* RangeSliderTrackerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B96D244B23BF004B5853 /* RangeSliderTrackerLayer.swift */; };
+		EE89B97D244B6C26004B5853 /* Ratings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B97B244B6C26004B5853 /* Ratings+CoreDataClass.swift */; };
+		EE89B97E244B6C26004B5853 /* Ratings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B97C244B6C26004B5853 /* Ratings+CoreDataProperties.swift */; };
+		EE89B980244B72FD004B5853 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B97F244B72FD004B5853 /* HistoryViewController.swift */; };
+		EE89B982244B7C8A004B5853 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89B981244B7C8A004B5853 /* CustomTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE89B949244AF948004B5853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE89B927244AF945004B5853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE89B92E244AF946004B5853;
+			remoteInfo = "Stamurai Assignment";
+		};
+		EE89B954244AF948004B5853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE89B927244AF945004B5853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE89B92E244AF946004B5853;
+			remoteInfo = "Stamurai Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE89B92F244AF946004B5853 /* Stamurai Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stamurai Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B932244AF946004B5853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE89B934244AF946004B5853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE89B936244AF946004B5853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE89B939244AF946004B5853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE89B93C244AF946004B5853 /* Stamurai_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stamurai_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		EE89B93E244AF948004B5853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE89B941244AF948004B5853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE89B943244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stamurai AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamurai_AssignmentTests.swift; sourceTree = "<group>"; };
+		EE89B94E244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stamurai AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE89B957244AF948004B5853 /* Stamurai_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamurai_AssignmentUITests.swift; sourceTree = "<group>"; };
+		EE89B959244AF948004B5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE89B965244AFA45004B5853 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		EE89B968244B021E004B5853 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE89B96B244B0E75004B5853 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EE89B96D244B23BF004B5853 /* RangeSliderTrackerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderTrackerLayer.swift; sourceTree = "<group>"; };
+		EE89B97B244B6C26004B5853 /* Ratings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ratings+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EE89B97C244B6C26004B5853 /* Ratings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ratings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE89B97F244B72FD004B5853 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EE89B981244B7C8A004B5853 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE89B92C244AF946004B5853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B945244AF948004B5853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B950244AF948004B5853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE89B926244AF945004B5853 = {
+			isa = PBXGroup;
+			children = (
+				EE89B97B244B6C26004B5853 /* Ratings+CoreDataClass.swift */,
+				EE89B97C244B6C26004B5853 /* Ratings+CoreDataProperties.swift */,
+				EE89B931244AF946004B5853 /* Stamurai Assignment */,
+				EE89B94B244AF948004B5853 /* Stamurai AssignmentTests */,
+				EE89B956244AF948004B5853 /* Stamurai AssignmentUITests */,
+				EE89B930244AF946004B5853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE89B930244AF946004B5853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B92F244AF946004B5853 /* Stamurai Assignment.app */,
+				EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */,
+				EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE89B931244AF946004B5853 /* Stamurai Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B985244C1172004B5853 /* Extensions */,
+				EE89B984244C1153004B5853 /* ViewControllers */,
+				EE89B983244C1133004B5853 /* Transitions */,
+				EE89B96A244B0E5E004B5853 /* CustomViews */,
+				EE89B932244AF946004B5853 /* AppDelegate.swift */,
+				EE89B934244AF946004B5853 /* SceneDelegate.swift */,
+				EE89B938244AF946004B5853 /* Main.storyboard */,
+				EE89B93E244AF948004B5853 /* Assets.xcassets */,
+				EE89B940244AF948004B5853 /* LaunchScreen.storyboard */,
+				EE89B943244AF948004B5853 /* Info.plist */,
+				EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */,
+			);
+			path = "Stamurai Assignment";
+			sourceTree = "<group>";
+		};
+		EE89B94B244AF948004B5853 /* Stamurai AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B94C244AF948004B5853 /* Stamurai_AssignmentTests.swift */,
+				EE89B94E244AF948004B5853 /* Info.plist */,
+			);
+			path = "Stamurai AssignmentTests";
+			sourceTree = "<group>";
+		};
+		EE89B956244AF948004B5853 /* Stamurai AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B957244AF948004B5853 /* Stamurai_AssignmentUITests.swift */,
+				EE89B959244AF948004B5853 /* Info.plist */,
+			);
+			path = "Stamurai AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		EE89B96A244B0E5E004B5853 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B96B244B0E75004B5853 /* RatingView.swift */,
+				EE89B96D244B23BF004B5853 /* RangeSliderTrackerLayer.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EE89B983244C1133004B5853 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B981244B7C8A004B5853 /* CustomTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		EE89B984244C1153004B5853 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B965244AFA45004B5853 /* RatingViewController.swift */,
+				EE89B97F244B72FD004B5853 /* HistoryViewController.swift */,
+				EE89B936244AF946004B5853 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE89B985244C1172004B5853 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B968244B021E004B5853 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE89B92E244AF946004B5853 /* Stamurai Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai Assignment" */;
+			buildPhases = (
+				EE89B92B244AF946004B5853 /* Sources */,
+				EE89B92C244AF946004B5853 /* Frameworks */,
+				EE89B92D244AF946004B5853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stamurai Assignment";
+			productName = "Stamurai Assignment";
+			productReference = EE89B92F244AF946004B5853 /* Stamurai Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE89B947244AF948004B5853 /* Stamurai AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentTests" */;
+			buildPhases = (
+				EE89B944244AF948004B5853 /* Sources */,
+				EE89B945244AF948004B5853 /* Frameworks */,
+				EE89B946244AF948004B5853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE89B94A244AF948004B5853 /* PBXTargetDependency */,
+			);
+			name = "Stamurai AssignmentTests";
+			productName = "Stamurai AssignmentTests";
+			productReference = EE89B948244AF948004B5853 /* Stamurai AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE89B952244AF948004B5853 /* Stamurai AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentUITests" */;
+			buildPhases = (
+				EE89B94F244AF948004B5853 /* Sources */,
+				EE89B950244AF948004B5853 /* Frameworks */,
+				EE89B951244AF948004B5853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE89B955244AF948004B5853 /* PBXTargetDependency */,
+			);
+			name = "Stamurai AssignmentUITests";
+			productName = "Stamurai AssignmentUITests";
+			productReference = EE89B953244AF948004B5853 /* Stamurai AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE89B927244AF945004B5853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tarun Kaushik";
+				TargetAttributes = {
+					EE89B92E244AF946004B5853 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					EE89B947244AF948004B5853 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EE89B92E244AF946004B5853;
+					};
+					EE89B952244AF948004B5853 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EE89B92E244AF946004B5853;
+					};
+				};
+			};
+			buildConfigurationList = EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Stamurai Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE89B926244AF945004B5853;
+			productRefGroup = EE89B930244AF946004B5853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE89B92E244AF946004B5853 /* Stamurai Assignment */,
+				EE89B947244AF948004B5853 /* Stamurai AssignmentTests */,
+				EE89B952244AF948004B5853 /* Stamurai AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE89B92D244AF946004B5853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE89B942244AF948004B5853 /* LaunchScreen.storyboard in Resources */,
+				EE89B93F244AF948004B5853 /* Assets.xcassets in Resources */,
+				EE89B93A244AF946004B5853 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B946244AF948004B5853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B951244AF948004B5853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE89B92B244AF946004B5853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE89B93D244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld in Sources */,
+				EE89B96E244B23BF004B5853 /* RangeSliderTrackerLayer.swift in Sources */,
+				EE89B966244AFA45004B5853 /* RatingViewController.swift in Sources */,
+				EE89B937244AF946004B5853 /* ViewController.swift in Sources */,
+				EE89B97E244B6C26004B5853 /* Ratings+CoreDataProperties.swift in Sources */,
+				EE89B980244B72FD004B5853 /* HistoryViewController.swift in Sources */,
+				EE89B97D244B6C26004B5853 /* Ratings+CoreDataClass.swift in Sources */,
+				EE89B969244B021E004B5853 /* Extensions.swift in Sources */,
+				EE89B933244AF946004B5853 /* AppDelegate.swift in Sources */,
+				EE89B935244AF946004B5853 /* SceneDelegate.swift in Sources */,
+				EE89B96C244B0E75004B5853 /* RatingView.swift in Sources */,
+				EE89B982244B7C8A004B5853 /* CustomTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B944244AF948004B5853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE89B94D244AF948004B5853 /* Stamurai_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89B94F244AF948004B5853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE89B958244AF948004B5853 /* Stamurai_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE89B94A244AF948004B5853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE89B92E244AF946004B5853 /* Stamurai Assignment */;
+			targetProxy = EE89B949244AF948004B5853 /* PBXContainerItemProxy */;
+		};
+		EE89B955244AF948004B5853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE89B92E244AF946004B5853 /* Stamurai Assignment */;
+			targetProxy = EE89B954244AF948004B5853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE89B938244AF946004B5853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE89B939244AF946004B5853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE89B940244AF948004B5853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE89B941244AF948004B5853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE89B95A244AF948004B5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE89B95B244AF948004B5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE89B95D244AF948004B5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE89B95E244AF948004B5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EE89B960244AF948004B5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai Assignment.app/Stamurai Assignment";
+			};
+			name = Debug;
+		};
+		EE89B961244AF948004B5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai Assignment.app/Stamurai Assignment";
+			};
+			name = Release;
+		};
+		EE89B963244AF948004B5853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stamurai Assignment";
+			};
+			name = Debug;
+		};
+		EE89B964244AF948004B5853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = "Stamurai AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scholacore.Stamurai-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stamurai Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE89B92A244AF945004B5853 /* Build configuration list for PBXProject "Stamurai Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE89B95A244AF948004B5853 /* Debug */,
+				EE89B95B244AF948004B5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE89B95C244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE89B95D244AF948004B5853 /* Debug */,
+				EE89B95E244AF948004B5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE89B95F244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE89B960244AF948004B5853 /* Debug */,
+				EE89B961244AF948004B5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE89B962244AF948004B5853 /* Build configuration list for PBXNativeTarget "Stamurai AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE89B963244AF948004B5853 /* Debug */,
+				EE89B964244AF948004B5853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE89B93B244AF946004B5853 /* Stamurai_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE89B93C244AF946004B5853 /* Stamurai_Assignment.xcdatamodel */,
+			);
+			currentVersion = EE89B93C244AF946004B5853 /* Stamurai_Assignment.xcdatamodel */;
+			path = Stamurai_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE89B927244AF945004B5853 /* Project object */;
+}
