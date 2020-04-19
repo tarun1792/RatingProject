@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stamurai_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rating_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
         <!--Rating View Controller-->
         <scene sceneID="PSa-0v-JFN">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="4W6-Rl-SZ2" customClass="RatingViewController" customModule="Stamurai_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="4W6-Rl-SZ2" customClass="RatingViewController" customModule="Rating_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Md3-BZ-5n1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,14 +91,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zlP-qu-uDL">
                                 <rect key="frame" x="0.0" y="496" width="414" height="400"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUj-YC-AcP">
-                                        <rect key="frame" x="346" y="8" width="60" height="60"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUj-YC-AcP">
+                                        <rect key="frame" x="366" y="8" width="40" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="IBv-2L-U6z"/>
-                                            <constraint firstAttribute="height" constant="60" id="Kvc-qi-Y8U"/>
+                                            <constraint firstAttribute="width" constant="40" id="IBv-2L-U6z"/>
+                                            <constraint firstAttribute="height" constant="40" id="Kvc-qi-Y8U"/>
                                         </constraints>
                                         <color key="tintColor" name="FontColors"/>
-                                        <state key="normal" image="multiply.circle" catalog="system">
+                                        <state key="normal" image="close">
                                             <color key="titleColor" name="FontColors"/>
                                         </state>
                                         <connections>
@@ -126,7 +126,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Submit Your Rating Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9UC-aT-Dg8">
-                                        <rect key="frame" x="98" y="40" width="218" height="23"/>
+                                        <rect key="frame" x="98" y="27.5" width="218" height="23"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -139,7 +139,7 @@
                                     <constraint firstItem="FPd-A2-Dxo" firstAttribute="centerX" secondItem="zlP-qu-uDL" secondAttribute="centerX" id="BCK-R0-rKx"/>
                                     <constraint firstItem="XUj-YC-AcP" firstAttribute="top" secondItem="zlP-qu-uDL" secondAttribute="top" constant="8" id="HX2-7e-B84"/>
                                     <constraint firstAttribute="height" constant="400" id="M04-2N-1vl"/>
-                                    <constraint firstItem="9UC-aT-Dg8" firstAttribute="top" secondItem="zlP-qu-uDL" secondAttribute="top" constant="40" id="dIk-Eu-HB0"/>
+                                    <constraint firstItem="9UC-aT-Dg8" firstAttribute="top" secondItem="zlP-qu-uDL" secondAttribute="top" constant="27.5" id="dIk-Eu-HB0"/>
                                     <constraint firstAttribute="bottom" secondItem="FPd-A2-Dxo" secondAttribute="bottom" constant="60" id="g1Y-sw-jgE"/>
                                 </constraints>
                             </view>
@@ -193,7 +193,7 @@
         <!--History View Controller-->
         <scene sceneID="gWS-wY-czC">
             <objects>
-                <viewController storyboardIdentifier="HistoryViewController" id="5b0-Xe-omN" customClass="HistoryViewController" customModule="Stamurai_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HistoryViewController" id="5b0-Xe-omN" customClass="HistoryViewController" customModule="Rating_Assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k8d-Tw-LuF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -296,7 +296,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="multiply.circle" catalog="system" width="128" height="121"/>
+        <image name="close" width="25" height="25"/>
         <namedColor name="ButtonBackgroundColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
