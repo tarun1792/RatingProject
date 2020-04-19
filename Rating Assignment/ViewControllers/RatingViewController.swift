@@ -94,7 +94,7 @@ extension RatingViewController{
         ratingSlider.leadingAnchor.constraint(equalTo: self.backgroundView.leadingAnchor, constant: 20).isActive = true
         ratingSlider.trailingAnchor.constraint(equalTo: self.backgroundView.trailingAnchor, constant: -20).isActive = true
         ratingSlider.centerYAnchor.constraint(equalTo: self.backgroundView.centerYAnchor, constant: -5).isActive = true
-        ratingSlider.heightAnchor.constraint(equalToConstant: 10).isActive = true
+        ratingSlider.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
         ratingSlider.addTarget(self, action: #selector(self.ratingViewValueChanged), for: UIControl.Event.valueChanged)
         
